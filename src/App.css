@@ -9,6 +9,17 @@
 
 .bg-dark {
     background-color: black!important;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+body{
+    background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
+    
+    
+
 }
 
 h1{
@@ -16,8 +27,8 @@ h1{
     text-align: left;
     color: white;
     font-size: 25mm;
-    padding-left: 5%;
-    padding-top: 10%;
+    padding-left: 7%;
+    
 }
 
 h2{
@@ -25,11 +36,33 @@ h2{
     color: whitesmoke;
     text-align: left;
     font-size: 6mm;
-    padding-left: 5%;
+    padding-left: 7%;
     padding-top: 1.5%;
 
 }
 
-body{
-    background: linear-gradient(358deg, rgba(83,201,140,1) 6%, rgba(0,0,0,1) 80%);
+.texto-inicio{
+    padding-top: 18%;
+    float:left;
+    width: 60%;
+    height: 650px;
+}
+
+.boton-inicio{
+    padding-top: 24%;
+    padding-left: 8%;
+    float:right;
+    width: 40%;
+    align-self: center;
+    height: 650px;
+
+}
+
+.btn-light{
+    font-size: 7mm;
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
 }
