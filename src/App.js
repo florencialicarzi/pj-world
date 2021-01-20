@@ -1,22 +1,27 @@
 import './App.css';
+import Nav from './Components/Nav.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Base <code>pj-world</code> ¡A crear!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Espero este proyecto salga bien.
-        </a>
-      </header>
-    </div>
+  return ( 
+    <>
+      <Nav/>
+
+      <h1>Crea con PJLizer</h1>
+      <h2>La mejor herramienta para la creación de personajes con multiples<br/>
+          caracteristicas que te serviran de inspiracion para tu rol,<br/> historia o videojuego.
+      </h2> 
+      <h2>La mejor herramienta para la creación de personajes con multiples<br/>
+          caracteristicas que te serviran de inspiracion para tu rol,<br/> historia o videojuego.
+      </h2>
+      <h2>La mejor herramienta para la creación de personajes con multiples<br/>
+          caracteristicas que te serviran de inspiracion para tu rol,<br/> historia o videojuego.
+      </h2>
+      <h2>La mejor herramienta para la creación de personajes con multiples<br/>
+          caracteristicas que te serviran de inspiracion para tu rol,<br/> historia o videojuego.
+      </h2>
+
+    </>
+    
   );
 }
 
