@@ -8,6 +8,7 @@ function App() {
     <>
         <Nav title='PJLizer' btn1= 'Creación' btn2= 'Mis personajes' btn3= 'Info'/>
         <Inicio />
+        
     </>
   )
 }

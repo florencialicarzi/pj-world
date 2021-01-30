@@ -1,44 +1,52 @@
-.texto-inicio h1{
+.div-inicio{
+    margin-top: 6rem;
+    float:none;
+    z-index:3;
+}
+
+/*columna de texto*/
+
+.div-texto{
+    float:left;
+    width: 60%;
+    padding-left: 10rem;
+    padding-top: 20rem;
+    padding-bottom: 19rem;
+}
+
+.div-texto h1{
     font-family: 'Gothic A1', sans-serif;    
     text-align: left;
     color: white;
-    font-size: 25mm;
-    padding-left: 7%;
-    
+    font-size: 8rem;
+    margin-bottom: 2rem;
 }
 
-h2{
+.div-texto h2{
     font-family:Arial, Helvetica, sans-serif;
     color: whitesmoke;
     text-align: left;
-    font-size: 6mm;
-    padding-left: 7%;
-    padding-top: 1.5%;
+    font-size: 2.4rem;
 
 }
 
-.texto-inicio{
-    padding-top: 18%;
-    float:left;
-    width: 60%;
-    height: 650px;
-}
-
-.boton-inicio{
-    padding-top: 24%;
-    padding-left: 8%;
-    float:right;
+/*Columna del boton*/
+.div-btn{
+    float: right;
     width: 40%;
-    align-self: center;
-    height: 650px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 26rem;
+    padding-bottom: 26rem;
 }
 
-.btn-light{
-    font-size: 7mm;
-    padding-right: 16%;
-    padding-left: 16%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+.btn-comienzo{
+    width:60%;
+    font-size: 2.5rem;
     text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 2rem 1rem;
+   
 }
