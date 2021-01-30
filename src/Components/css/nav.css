@@ -1,0 +1,53 @@
+html{
+    font-size: 10px;
+}
+.div-nav{
+    clear: both;
+}
+.Navegador{
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+}
+.Navegador h1{
+    font-size: 2rem;
+    padding: 1rem 2rem ;
+    float: left;
+    box-sizing: border-box;
+}
+.Navegador ol{
+    float:right;
+    margin: 0px;
+}
+.Navegador li{
+    float:right;
+    font-size: 1.7rem;
+    color: rgb(177, 174, 174);
+    box-sizing: border-box;
+    margin: 1rem 2rem ;
+    list-style: none;
+}
+
+.Navegador li:hover{
+    color: white;
+}
+/*
+.navbar-brand{
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+.Botones{
+    padding-right: 2%;
+}
+
+.bg-dark {
+    background-color: black!important;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}*/
