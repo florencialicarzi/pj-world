@@ -1,12 +1,13 @@
 import React from 'react'
 import './css/cardEleccion.css'
 
-function CardEleccion(props) {
+function CardEleccion({titulo}) {
     return(
-        <div className="Card-eleccion">
-            <h3>
-                {props.texto}
-            </h3>
+        <div className="card-eleccion">
+            <h3>{titulo}</h3>
+            <div className='desc-form'>
+              cdfs
+            </div>
             <button>
                  →
             </button>

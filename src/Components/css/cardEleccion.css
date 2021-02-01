@@ -1,3 +1,32 @@
-.Card-eleccion{
+.card-eleccion{
     background-color: white;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.card-eleccion h3{
+    font-size: 5rem;
+    padding: 4rem 5rem;
+}
+
+.card-eleccion .desc-form{
+    background-color: white;
+    margin: 5rem 0rem
+}
+
+.card-eleccion button{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15%;
+    background-color: black;
+    font-size: 5rem;
+    color: white;
+
 }
